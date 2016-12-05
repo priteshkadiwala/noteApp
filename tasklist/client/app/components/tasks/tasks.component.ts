@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {TaskService} from '../../services/task.service';
 
 @Component({
 
@@ -8,4 +9,8 @@ import { Component } from '@angular/core';
 
 })
 
-export class TasksComponent { }
+export class TasksComponent { 
+	constructor(private taskService:TaskService){
+        
+    }
+}
