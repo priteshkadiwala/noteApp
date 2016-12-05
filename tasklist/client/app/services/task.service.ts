@@ -21,5 +21,9 @@ export class TaskService{
             .map(res => res.json());
     }
 
+    deleteTask(id){
+        return this.http.delete('/api/task/'+id)
+            .map(res => res.json());
+    }
 
 }
