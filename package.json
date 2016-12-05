@@ -12,18 +12,18 @@
   },
   "author": "Pritesh Kadiwala",
   "license": "ISC",
-  "bcryptjs": "*",//It is mainly for js and no strange dependencies.
-  "body-parser": "*",//to parse JSON
-  "connect-flash": "*",//Used for flash messages
+  "bcryptjs": "*", 
+  "body-parser": "*",
+  "connect-flash": "*",
   "cookie-parser": "^1.4.1",
   "express": "*",
-  "express-handlebars": "*",// View engine because regualr html over jade
+  "express-handlebars": "*",
   "express-messages": "*",
   "express-session": "*",
   "express-validator": "*",
-  "mongodb": "*",//database
-  "mongoose": "*",//interact with the database
-  "passport": "*",//its to help create a local database
+  "mongodb": "*",
+  "mongoose": "*",
+  "passport": "*",
   "passport-http": "*",
   "passport-local": "*",
 
