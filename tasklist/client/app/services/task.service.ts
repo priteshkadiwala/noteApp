@@ -8,4 +8,12 @@ export class TaskService{
 	 constructor(private http:Http){
         console.log('Task Service Initialized...');
     }
+
+    getTasks(){
+        return this.http.get('/api/tasks')
+            .map(res => res.json());
+    }
+
+    
+
 }
