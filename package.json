@@ -1,0 +1,34 @@
+{
+  "name": "virtualtourist",
+  "version": "1.0.0",
+  "description": "To keep posts",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priteshkadiwala/noteApp.git"
+  },
+  "author": "Pritesh Kadiwala",
+  "license": "ISC",
+  "bcryptjs": "*",//It is mainly for js and no strange dependencies.
+  "body-parser": "*",//to parse JSON
+  "connect-flash": "*",//Used for flash messages
+  "cookie-parser": "^1.4.1",
+  "express": "*",
+  "express-handlebars": "*",// View engine because regualr html over jade
+  "express-messages": "*",
+  "express-session": "*",
+  "express-validator": "*",
+  "mongodb": "*",//database
+  "mongoose": "*",//interact with the database
+  "passport": "*",//its to help create a local database
+  "passport-http": "*",
+  "passport-local": "*",
+
+  "bugs": {
+    "url": "https://github.com/priteshkadiwala/noteApp/issues"
+  },
+  "homepage": "https://github.com/priteshkadiwala/noteApp#readme"
+}
