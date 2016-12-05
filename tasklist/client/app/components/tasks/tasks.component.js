@@ -19,6 +19,10 @@ var TasksComponent = (function () {
             _this.tasks = tasks;
         });
     }
+    TasksComponent.prototype.addTask = function (event) {
+        event.preventDefault();
+        console.log(this.title);
+    };
     TasksComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
