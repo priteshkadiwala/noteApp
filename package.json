@@ -12,7 +12,7 @@
   },
   "author": "Pritesh Kadiwala",
   "license": "ISC",
-  "bcryptjs": "*", 
+  "bcryptjs": "*",
   "body-parser": "*",
   "connect-flash": "*",
   "cookie-parser": "^1.4.1",
@@ -26,9 +26,14 @@
   "passport": "*",
   "passport-http": "*",
   "passport-local": "*",
-
   "bugs": {
     "url": "https://github.com/priteshkadiwala/noteApp/issues"
   },
-  "homepage": "https://github.com/priteshkadiwala/noteApp#readme"
+  "homepage": "https://github.com/priteshkadiwala/noteApp#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.3",
+    "express": "^4.14.0",
+    "mongojs": "^2.4.0"
+  }
 }
